@@ -7,7 +7,7 @@
     <label for="Name"><b>Enter Name</b></label>
     <input
       type="text"
-      placeholder="Enter Full Name"
+      placeholder="Enter Fullest Name"
       name="Name"
       id="Name"
       required
