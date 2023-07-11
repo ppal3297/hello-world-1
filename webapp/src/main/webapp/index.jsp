@@ -1,10 +1,10 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>Registration Form v1</h1>
+    <h1>Registration Form v3</h1>
     <p>Please fill in this form to create an account.</p>
     <hr />
 
-    <label for="Name"><b>Enter Name</b></label>
+    <label for="Name"><b>Enter your Name</b></label>
     <input
       type="text"
       placeholder="Enter Fullest Name"
@@ -18,6 +18,16 @@
     <input
       type="text"
       placeholder="Enter moible number"
+      name="mobile"
+      id="mobile"
+      required
+    />
+    <br />
+
+    <label for="mobile"><b>Enter mobile Number</b></label>
+    <input
+      type="text"
+      placeholder="Enter moible number 1"
       name="mobile"
       id="mobile"
       required
